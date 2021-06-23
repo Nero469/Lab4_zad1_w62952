@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab4_zad1_w62952.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4_zad1_w62952"
+        mc:Ignorable="d"
+        Title="StudentWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label1" Content="Imię" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="114,100,0,0" Height="32" Width="85" FontSize="16"/>
+        <Label x:Name="label2" Content="Nazwisko" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="114,142,0,0" FontSize="16"/>
+        <Label x:Name="label3" Content="Nr albumu" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="114,187,0,0" FontSize="16"/>
+        <Label x:Name="label4" Content="Wydział" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="114,232,0,0" FontSize="16"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Margin="222,100,0,0" FontSize="16"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Margin="222,142,0,0" FontSize="16"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Margin="222,187,0,0" FontSize="16"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Margin="222,232,0,0" FontSize="16"/>
+        <Button x:Name="button6" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="433,288,0,0" Height="41" Click="button6_Click"/>
+
+    </Grid>
+</Window>
